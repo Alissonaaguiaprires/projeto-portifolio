@@ -108,9 +108,7 @@ section#detalhes{
 
 }
 article{
-  background-color: var(--fundo-card);
-
-  
+  background-color: var(--fundo-card); 
   padding: 20px;
   margin: 20px;
   border-radius: 8px;
@@ -167,7 +165,6 @@ article#video .videoconteiner{
   display: flex;
   flex-direction: column-reverse;
   gap: 20px;
-  
 }
 #formacao-conteiner .curso{
   background-color: var(--fundo-principal);
@@ -175,7 +172,6 @@ article#video .videoconteiner{
   border-left: 5px solid var(--destaque-inverso);
   padding-left: 15px;
   transition: border-width 0.5s, border-color 0.5s;
-
 }
 #formacao-conteiner .curso:hover{
   border-left-width:15px ;
@@ -190,7 +186,6 @@ article#video .videoconteiner{
 #formacao-conteiner .instituicao{
   color: var(--destaque-inverso);
   font-size: 1.1em;
-
 }
 #projeto-conteiner{
   display: flex;
@@ -232,9 +227,7 @@ footer a{
 }
 footer a:hover{
   color: var(--destaque-inverso);
-
 }
-
 @media screen and (min-width: 768px) {
   #skill-conteiner{
     grid-template-columns: 1fr 1fr;
