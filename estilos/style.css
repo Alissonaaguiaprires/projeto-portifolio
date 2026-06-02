@@ -26,7 +26,15 @@ body{
  line-height: 1.5em;
  background-color: var(--fundo-principal);
  color: var(--texto);
-
+ transition: background-color 0.5, color 0.5;
+}
+body.escuro{
+  --fundo-principal:#222222;
+  --texto:#e0e0e0;
+  --texto-inverso:#333333;
+  --destaque:#ff5522;
+  --destaque-inverso:#a73917;
+  --fundo-card:#444444;
 }
 header{
   display: flex;
@@ -117,6 +125,7 @@ article h2{
   color: var(--destaque);
   margin-bottom: 20px;
 }
+
 article#video .videoconteiner{
   position: relative;
   width: 100%;
@@ -249,11 +258,11 @@ footer a:hover{
     justify-content: space-evenly;
   }
   #projeto-conteiner .projeto-info{
-    max-width: 70%;
+    max-width: 80%;
   }
   #projeto-conteiner .foto{
     aspect-ratio: 1/1;
-    max-width:30%;
+    max-width:20%;
     max-height: 200px;
   }
 }
